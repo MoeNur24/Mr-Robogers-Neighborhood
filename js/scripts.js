@@ -6,9 +6,11 @@ number.push(i.toString());
 if ((number[i]).match("3")) {
     number [i] = "Can you be my neighbor?"    
     } else if ((number[i]).match("2")) {
-    number [i] = ("Holla");    
-    }  
-    return number;
+    number [i] = ("Friend");    
+    } else if (number[i].match("1")) {
+        number[i] = ("Hello");
+    }
+return number;
 }
 }
 
