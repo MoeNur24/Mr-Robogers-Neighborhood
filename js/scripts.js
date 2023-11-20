@@ -9,6 +9,8 @@ if ((number[i]).match("3")) {
     number [i] = ("Friend");    
     } else if (number[i].match("1")) {
         number[i] = ("Hello");
+    } else {
+      number[i];
     }
 return number;
 }
