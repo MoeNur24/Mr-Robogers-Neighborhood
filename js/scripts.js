@@ -17,7 +17,7 @@ function myLovely(neighbor) {
 //UI Logic
 document.addEventListener("DOMContentLoaded", function () {
     const formUno = document.getElementById("form-Uno");
-    formUno.addEventListener("submit", function(event) {
+    formUno.addEventListener("submit", function (event) {
         event.preventDefault();
         const inputtedNumber = parseInt(document.getElementById("number").value);
         let result = myLovely(inputtedNumber);
