@@ -3,8 +3,8 @@ let array = [];
 for (let i =0; i <= num; i + 1) {
 
 }
-
 }
+
 
 $(document).ready(function() {
   $("#form-Uno").submit(function(event) {
