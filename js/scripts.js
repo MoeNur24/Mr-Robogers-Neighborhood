@@ -15,5 +15,11 @@ function my(neighbor) {
 }
 
 //UI Logic
+document.addEventListener("DOMContentLoaded", function () {
+    const formUno = document.getElementById("form-Uno");
+    formUno.addEventListener("submit", function(event) {
+        event.preventDefault();
 
+    })
+})
 
