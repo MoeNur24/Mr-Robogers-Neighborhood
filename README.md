@@ -6,7 +6,7 @@
 
 _The Program will ask the user to enter a number, but then the program will return range of numbers from 0 to the number user inputs_
 
-### Tests
+## Tests
 Tests - Input - OutPut
 **When a user enter a number the return will be** 1 = "Beep!" 
 **When a user enter a number the return will be** 2 = "Boop!" 

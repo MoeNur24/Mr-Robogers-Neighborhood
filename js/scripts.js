@@ -11,15 +11,17 @@ if ((number[i]).match("3")) {
         number[i] = ("Hello");
     } else {
       number[i];
-    }
+  }
+}
 return number;
-}
-}
+};
 
+    //UI Logic
 $(document).ready(function() {
   $("#form-Uno").submit(function(event) {
     event.preventDefault();
-    const inputNumber = parseInt($("#number").val());
-    myNeighbor(inputtedNumber);
+    const inputNumber = ($("#number").val());
+    let result = my(inputtedNumber);
+    $("#output").text(result);
    });
   });
