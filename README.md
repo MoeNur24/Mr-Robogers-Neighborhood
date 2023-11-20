@@ -4,15 +4,22 @@
 
 ## Description
 
-_The Program will ask the user to enter a number, but then the program will return range of numbers from 0 to the number user inputs_
+_The program takes a number and returns range of numbers staring from 0 to whatever number the user inputs. For example if the user enters 1 the program returns "Hello", if they enter number 2 it will return "Friend" and if you enter number 3 it will return "Can you be my neighbor"_
 
 ## Tests
-Tests - Input - OutPut
-**When a user enter a number the return will be** 1 = "Beep!" 
-**When a user enter a number the return will be** 2 = "Boop!" 
-**When a user enter a number the return will be** 15 = "Can you be my neighbor?" 
-**When a user enter a number the return will be** 24 = "Boop!" 
-**When a user enter a number the return will be** 35 = "Can you be my neighbor?" 
+
+_//Business Logic:_
+_Describe: myLovely_
+
+_Test: This application retuns range of numbers starting from 0 to the user the number they input._
+
+* _Input: "3"_
+* _Output: "0,1,2,3"
+
+
+
+
+
 
 
 ## Technologies Used

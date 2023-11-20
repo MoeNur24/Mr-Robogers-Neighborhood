@@ -1,5 +1,5 @@
 //Bussiness Logic
-function my(neighbor) {
+function myLovely(neighbor) {
     let number = [];
     for (let i = 0; i <= neighbor; i++) {
         number.push(`${i}`);
@@ -19,7 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const formUno = document.getElementById("form-Uno");
     formUno.addEventListener("submit", function(event) {
         event.preventDefault();
-
-    })
-})
+        const inputtedNumber = parseInt(document.getElementById("number").value);
+        let result = myLovely(inputtedNumber);
+        document.getElementById("output").textContent = result.join(', ');
+        document.getElementById("output").style.display = "block";
+    });
+});
 
