@@ -8,28 +8,30 @@ _The program takes a number and returns range of numbers staring from 0 to whate
 
 ## Tests
 
-_Business Logic:_
-_Describe: myLovely();_
+```
+//Business Logic:
+Describe: myLovely();
 
-_Test: This application retuns range of numbers starting from 0 to the user the number they input._
-* _Input: "6"_
-* _Output: "0,1,2,3,4,5,6"_
+Test: "This application retuns an array of numbers starting from 0 to the user the number they input.";  
+Code: myLovely(6);  
+Expected: ["0", "1", "2", "3", "4", "5", "6"]
 
-_Test: And if you input a number that ranges from 0 and you include 1, the application will replace the 1 with "Hello"_
-* _Input: "1"_
-* _Output: "0, Hello"_
+Test: "And if you input a number that ranges from 0 and you include 1, the application will replace the 1 with 'Hello'.";  
+Code: myLovely(1);  
+Expected: ["0", "Hello"]
 
-_Test: And if you input a number that ranges from 0 and you include 2, the application will replace the 1 with "Friend"_
-* _Input: "2"_
-* _Output: "0, Hello, Friend"_
+Test: "And if you input a number that ranges from 0 and you include 2, the application will replace the 1 with 'Friend'."; 
+Code: myLovely(2);
+Expected: ["0", "Hello", "Friend"]  
 
-_Test: And if you input a number that ranges from 0 and you include 3, the application will replace the 3 with "Can you be my neighbor?"_
-* _Input: "3"_
-* _Output: "0, Hello, Friend, Can you be my neighbor?"_
+Test: "And if you input a number that ranges from 0 and you include 3, the application will replace the 3 with 'Can you be my neighbor?'";  
+Code: myLovely(3);  
+Expected: ["0", "Hello", "Friend", "Can you be my neighbor?"]  
 
-_Test: And if you input a number that ranges from 0 and you include 5, the application will replace the 5 with_
-* _Input: "5"_
-* _Output: "0, Hello, Friend, Can you be my neighbor?, 4, 5"_
+Test: "And if you input a number that ranges from 0 to 5, numbers that are not 1, 2, or 3 won't be replaced."
+Code: myLovely(5);  
+Expected: ["0", "Hello", "Friend", "Can you be my neighbor?", "4", "5"]
+```
 
 ## Technologies Used
 * _HTML_
@@ -46,7 +48,7 @@ _Test: And if you input a number that ranges from 0 and you include 5, the appli
 
 ## Link
 
-https://github.com/MoeNur24/Mr-Robogers-Neighborhood
+https://moenur24.github.io/Mr-Robogers-Neighborhood/
 
 ## Known Bugs
 
