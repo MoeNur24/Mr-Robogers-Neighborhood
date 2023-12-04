@@ -37,7 +37,7 @@ Expected: ["0", "Hello", "Friend", "Can you be my neighbor?", "4", "5"]
 * _HTML_
 * _CSS_
 * _JavaScript_
-* _README_
+* _TDD_
 
 ## Setup/Installation Requirements
 * _Open Terminal_
